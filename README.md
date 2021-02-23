@@ -11,6 +11,8 @@
 ## What do you get?
 A functional, lean, and unstyled Kirby User Management Add-On (Pre-Release) for Kirby CMS.
 
+Check out the [Codepen](https://codepen.io/Manuel-Steinberg/pen/MWbJLWm) to see how it may look like.
+
 **Supported Accounts** | **Comment**
 ---- | ----
 WhatsApp | [How to link to WhatsApp from a different app (whatsapp.com)](https://faq.whatsapp.com/iphone/how-to-link-to-whatsapp-from-a-different-app/)
