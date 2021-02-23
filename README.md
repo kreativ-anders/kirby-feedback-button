@@ -11,16 +11,13 @@
 ## What do you get?
 A functional, lean, and unstyled Kirby User Management Add-On (Pre-Release) for Kirby CMS.
 
-**Functionality** | **Comment**
+**Supported Accounts** | **Comment**
 ---- | ----
-Register / Login| Yes
-Logout | Virtual
-Change Email | Yep
-Change Password | Sure
-Export Data | CSV & JSON
-Dedicated Role | Of course
-CSS | Nope
-Success Messages | Not yet
+WhatsApp | [How to link to WhatsApp from a different app (whatsapp.com)](https://faq.whatsapp.com/iphone/how-to-link-to-whatsapp-from-a-different-app/)
+Twitter | 
+LinkedIn | 
+GitHub | 
+Email | [Mailto Links (css-tricks.com)](https://css-tricks.com/snippets/html/mailto-links/)
 
 
 ## Why an Add-On?
@@ -28,19 +25,25 @@ IMHO a Plug-in does not make sense due to interoperability.
 Also this kind of Add-On adapts way more easy to **YOUR** project.
 
 ## Installation:
-1. Unzip the files.
-1. Paste (overwrite) the folder *content* and *site* on top of the root folder of your Kirby installation.
-1. Done!
+1. Download latest release.
+2. Paste folder into plugins folder of Kirby.
+3. Done!
+
+## Configuration
+
+### config.php
+````php
+'kreativ-anders.feedback-button.color' => 'black',`      // HEX, RGB(A), COLOR ... WHATEVER YOU DESIRE
+  'kreativ-anders.feedback-button.accounts' => [
+    [ 'name'  => 'WhatsApp'
+     ,'url' => 'https://wa.me/491512345678910'],         // JUST KEEP THE CORRECT URLs IN MIND
+    [ 'name'  => 'Email'
+     ,'url' => 'mailto:hello@kreativ-anders.de'],
+  ]
+````
 
 ## Notes:
 This Add-On is built for Kirby CMS based on **Kirby´s Starterkit Version 3.5.0**. 
-
-In case you are using Kirby´s Plainkit ensure to add the pages/links for the following pages somewhere in your snippets or templates!
-
-- Register 
-- Login
-- Logout
-- User 
 
 ### Kirby CMS Licence 
 **Kirby CMS requires a dedicated licence:**
