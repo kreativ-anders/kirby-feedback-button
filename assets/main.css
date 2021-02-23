@@ -1,0 +1,85 @@
+.fab-container {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 999;
+  cursor: pointer;
+}
+
+.fab-icon-holder {
+  width: 50px;
+  height: 50px;
+}
+
+.fab-icon-holder:hover {
+  opacity: 0.8;
+}
+
+#feedback-plane i:hover {
+  animation: looping 0.5s;
+}
+
+.fab-icon-holder i {
+  --background-color: purple;
+}
+
+.fab-icon-holder i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  height: 100%;
+  font-size: 25px;
+  color: white;
+  width: 60px;
+  height: 60px;
+  background: var(--background-color);
+}
+
+.fab-options {
+  list-style-type: none;
+  margin: 0;
+
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+  opacity: 0;
+
+  transition: all 0.3s ease;
+  transform: scale(0);
+  transform-origin: 90% bottom;
+}
+
+.fab:hover + .fab-options,
+.fab-options:hover {
+  opacity: 1;
+  transform: scale(0.9);
+}
+
+.fab-options li {
+  display: flex;
+  justify-content: flex-end;
+  margin: 1.5rem 0;
+}
+
+.fab-options li a {
+  text-decoration: none;
+}
+
+.fab-label {
+  align-self: center;
+  user-select: none;
+  white-space: nowrap;
+  font-size: 1rem;
+  margin-right: 1rem;
+  color: grey;
+}
+
+@keyframes looping {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
