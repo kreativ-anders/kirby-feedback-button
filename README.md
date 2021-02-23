@@ -42,6 +42,27 @@ Also this kind of Add-On adapts way more easy to **YOUR** project.
   ]
 ````
 
+### Load CSS & Font Awesome
+
+Add the following code somewhere in your template or snippets:
+
+````php
+<?= css('media/plugins/kreativ-anders/feedback-button/main.css') ?>
+<?= css('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css') ?>
+````
+
+### Add Feedback Button
+
+Add the following code somewhere in your template or snippets:
+
+> Do not add the snippet twice. That my look ugly!
+
+````php
+<?php snippet('feedback-button') ?>
+````
+
+### Done!
+
 ## Notes:
 This Add-On is built for Kirby CMS based on **Kirby´s Starterkit Version 3.5.0**. 
 
