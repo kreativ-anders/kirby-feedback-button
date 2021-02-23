@@ -33,7 +33,7 @@ Also this kind of Add-On adapts way more easy to **YOUR** project.
 
 ### config.php
 ````php
-'kreativ-anders.feedback-button.color' => 'black',`      // HEX, RGB(A), COLOR ... WHATEVER YOU DESIRE
+'kreativ-anders.feedback-button.color' => 'black',       // HEX, RGB(A), COLOR ... WHATEVER YOU DESIRE
   'kreativ-anders.feedback-button.accounts' => [
     [ 'name'  => 'WhatsApp'
      ,'url' => 'https://wa.me/491512345678910'],         // JUST KEEP THE CORRECT URLs IN MIND
