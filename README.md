@@ -17,10 +17,10 @@ A little floating button in the lower right corner shows those links to the serv
 There are tons of tools out there that provide real-time chat functionality or immediately forward messages to your Slack channel. 
 
 >But why using a third-party service in the beginning? 
->The easiest way to create a bond with your customers/visitors is to provide a link to your desired communication platform somewhere on your page! I do not want to check on another platform what´s going on.
+>The easiest way to create a bond with your customers/visitors is to provide a link to your desired communication platforms somewhere on your page!
 
 ### Why asking for feedback anyway?
-Just because you think that might be good does not mean your customers think the same. 
+Just because you think that might be good, it does not mean your customers think the same. 
 
 ## Installation:
 1. Download the latest release.
