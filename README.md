@@ -2,8 +2,8 @@
 
 * [What do you get?](#what-do-you-get)
 * [Why this Plug-In?](#why-this-plug-in)
-* [External Requirements](#external-requirements)
 * [Installation](#installation)
+    * [External Requirements](#external-requirements)
     * [Configuration](#configuration)
 * [Notes](#notes)
 * [Support](#support)  
@@ -22,20 +22,20 @@ There are tons of tools out there that provide a real-time chat functionality or
 ### Why asking for feedback anyway?
 Just because you think that might be good it does not mean your customers think the same. 
 
-## External Requirements
-This Plug-In requires Font Awesome. 
-So ensure to load it somewhere in your templates or snippets, e.g.:
-
-````php
-<?= css('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css') ?>
-````
-
 ## Installation:
 1. Download latest release.
 2. Paste folder into plugins folder (*site/plugins/*) of Kirby.
 3. Done!
 
 *(In case you are really fancy you can also add Plug-Ins via git-submodule in the plugins folder. [Checkout Kirby docs how to do that](https://getkirby.com/docs/cookbook/setup/git#setting-up-kirby-as-a-git-submodule))*
+
+### External Requirements
+This Plug-In requires Font Awesome. 
+So ensure to load it somewhere in your templates or snippets, e.g.:
+
+````php
+<?= css('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css') ?>
+````
 
 ### Configuration
 
