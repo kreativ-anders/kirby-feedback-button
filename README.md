@@ -9,22 +9,22 @@
 * [Support](#support)  
 
 ## What do you get?
-A little floating button in the lower right corner that show those links to your services you already use.
+A little floating button in the lower right corner shows those links to the services you already use.
 
 [See a demo on codepen.io](https://codepen.io/Manuel-Steinberg/pen/MWbJLWm) to see what we are talking about.
 
 ## Why this Plug-In?
-There are tons of tools out there that provide a real-time chat functionality or immediately forward messages to your Slack channel. 
+There are tons of tools out there that provide real-time chat functionality or immediately forward messages to your Slack channel. 
 
->But why using a third party service in the beginning? 
->The easiest way to create a bond with your customers/visitors is to provide a link to yur desired communication platform somewhere on your page! I do not want to check on another platform what´s going on.
+>But why using a third-party service in the beginning? 
+>The easiest way to create a bond with your customers/visitors is to provide a link to your desired communication platform somewhere on your page! I do not want to check on another platform what´s going on.
 
 ### Why asking for feedback anyway?
-Just because you think that might be good it does not mean your customers think the same. 
+Just because you think that might be good does not mean your customers think the same. 
 
 ## Installation:
-1. Download latest release.
-2. Paste folder into plugins folder (*site/plugins/*) of Kirby.
+1. Download the latest release.
+2. Paste the folder into the plugins folder (*site/plugins/*) of Kirby.
 3. Done!
 
 *(In case you are really fancy you can also add Plug-Ins via git-submodule in the plugins folder. [Checkout Kirby docs how to do that](https://getkirby.com/docs/cookbook/setup/git#setting-up-kirby-as-a-git-submodule))*
@@ -80,7 +80,7 @@ Add the following code somewhere in your template or snippets:
 This Plug-In is built for Kirby CMS based on **Kirby´s Starterkit Version 3.5.0**. 
 
 ### Kirby CMS Licence 
-**Kirby CMS requires a dedicated licence:**
+**Kirby CMS requires a dedicated license:**
 
 *Go to https://getkirby.com/buy*
 
