@@ -1,10 +1,11 @@
 # Kirby Feedback Button
 
 * [What do you get?](#what-do-you-get)
-* [Why an Add-On?](#why-an-add-on)
+* [Why this Plug-In?](#why-this-plug-in)
+* [External Requirements](#external-requirements)
 * [Installation](#installation)
+    * [Configuration](#configuration)
 * [Notes](#notes)
-    * [Kirby CMS Licence](#kirby-cms-licence)
 * [Support](#support)  
 
 ## What do you get?
