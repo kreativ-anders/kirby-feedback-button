@@ -13,6 +13,15 @@ A little floating button in the lower right corner shows those links to the serv
 
 [See a demo on codepen.io](https://codepen.io/Manuel-Steinberg/pen/MWbJLWm) to see what we are talking about.
 
+| :exclamation:  There is also a version without dependencies.   |
+|-----------------------------------------|
+|[Check codepen.io](https://codepen.io/Manuel-Steinberg/pen/NWXrPOg).|
+
+**It is totally fine, to Copy & Paste the code from the demos as well!**
+
+- Better performance (No additional requests. No Font Awesome integration required.)
+- Better adaptability.
+
 ## Why this Plug-In?
 There are tons of tools out there that provide real-time chat functionality or immediately forward messages to your Slack channel. 
 
